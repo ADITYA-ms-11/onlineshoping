@@ -1,0 +1,848 @@
+<!doctype html>
+<html>
+    <head>
+    <title>AAA:ONLINE SHOPPING</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        margin:0; 
+        width:100%;
+        background-color: rgb(206, 236, 175);
+        font-family: Arial, Helmet, Freesans, sans-serif;
+        }
+        #tnb{
+            position: fixed;
+       
+        width:100%;
+        height:50px ;
+        background-color: rgb(12, 12, 10);
+        border: 2px double rgb(64, 17, 236);
+        border-radius:15px ;
+       
+      
+        }
+        #logo{
+           padding-top: 2px;
+             padding-left: 2.1em;
+            float: left;
+             }
+        .line{
+            color: chartreuse;
+            font-size: 10px;
+            padding-left:2.2em;
+            padding: 0px 50px 5px 0px;
+            position: relative;
+            top:0px;
+            right:1.7em;
+            bottom:3px;
+            float: left;
+            
+            }
+            
+             #search{
+                 padding:0.3em; 
+                float: left;
+                 }
+             #search input{
+                     height:30px;
+                     width:60em;
+                     border:3px solid rgb(102, 255, 0);
+                     float:left;
+                     }
+                     #st{
+                        padding-right:50px ;
+                         float:left
+                         
+                         
+                     }
+                    #st img{
+                    height:32px;
+                    border:3px solid rgb(102, 255, 0);
+                    float:left;
+                    } 
+              #signin{
+                  padding:0.5em ;
+                  padding-right:2em ;
+                  
+                  float:left;
+                 
+
+              }      
+              #signin input{
+                  height:35px;
+                  width:6.5em;
+                  font-weight: bold;
+                  border:3px solid chartreuse;
+                  
+                  
+              }
+              #cart{
+                float:left;
+                padding: 0.5em;
+                padding-left: 5em;
+             
+               
+               
+              }
+              #cart img{
+                  width:2.1em;
+                  border: 3px solid chartreuse;
+                  float:left;
+                  margin-bottom: 1px;
+                 
+              }
+              .c{
+                float:left;
+                color:rgb(17, 16, 19);
+                font-weight: bold;
+                border: 3px solid chartreuse;
+                background-color: rgb(212, 233, 24);
+                margin-top: 0px;
+                height: 31.5px;
+              }
+              .clear{
+                  clear:both;
+              }
+              #linkbar{
+            position:fixed;
+             margin-top: 50px;
+                  width:100%;
+                  height:50px;
+                  background-color: rgb(27, 27, 25);
+                  border-radius:35px ;
+                  border: 2px double rgb(138, 63, 236);
+               
+                 }
+                 #linkbar ul{
+                     margin:0;
+                     padding: 0px;
+                    
+                 }
+                 .section{
+                     color: white;
+                     float:left;
+                     list-style: none;
+                     padding: 5px 20px 0px 20px;
+                    border-right:3px solid rgb(38, 146, 218);
+                    height:45px;
+                    font-size: 1.2em;
+                    font-weight: bold;
+                    }
+                     #covid a{
+                     color: rgb(27, 25, 25);
+                     float:left;
+                     list-style: none;
+                     padding: 5px 50px 0px 20px;
+                    border:8px groove rgb(128, 218, 38);
+                    height:45px;
+                    font-size: 1.5em;
+                    font-weight: bold;
+                    text-decoration: none;
+                    background-color: crimson;
+                    
+                    
+                  
+                    }
+
+                    .section a{
+                        text-decoration: none;
+
+                    }
+                  .section a:hover{
+                     font-size: 2em;
+                     text-decoration: underline;
+
+
+                    }
+                    .section a:visited{
+                        color:rgb(241, 240, 240);
+                    }
+                    #covid a:hover{
+                     font-size: 2em;
+                     text-decoration: underline;
+
+
+                    }
+                    #covid a:visited{
+                        color:rgb(22, 19, 19);
+                    }
+                    #intro{
+                       
+                      width:107%;
+                        background-color:rgb(255, 220, 192);
+                        height:1400px;
+                        
+                    }
+                    #centrelogo{
+                        padding:150px 300px 0px 200px ;
+                        animation-name: logo;
+                       animation-duration: 3s;
+                    }
+                    #mooto{
+                       padding-left:190px ;
+                       font-size: 2em;
+                       font-weight:bold ;
+                       background-color: #f3ff31;
+                       border-radius: 120px;
+                       border:6px outset rgb(126, 119, 187);
+                       animation-name: to;
+                       animation-duration: 3s;
+                    }
+                    #l{
+                        font-size: 2em;
+                        padding-left:120px ;
+                    }
+                    #k{
+                        padding-left:20px ;
+                        font-size: 1.2em;
+                        color: brown;
+                        
+
+
+                    }
+                    #l img {
+                        width:350px;
+                        height:100px;
+                        padding-bottom:0px;
+                    }
+                    @keyframes logo {
+                                        0% {
+                                        opacity: 0;
+                                        transform: rotate(100deg);
+                                            }
+                                        50% {
+                                        transform: rotate(50deg);
+                                             }
+                                         100% {
+                                         opacity: 1;
+                                              }
+                                              }
+        
+                    @keyframes to {
+                                    0% {
+                                    opacity: 0;
+                                 transform: translateX(100px);
+                                         }
+                                  50% {
+                                 transform: translateX(-20px);
+                                       }
+                                  100% {
+                                  opacity: 1;
+                                 transform: translateX(0);
+                                   }
+                                 }
+                                 hr{
+                                     width:107%;
+                                    }
+                  #button{
+                      margin-left: 40em;
+                      margin-right:52em;
+                      margin-top:2px ;
+                      padding: 10px;
+                      font-weight: bold;
+                      background-color: rgba(218, 214, 9, 0.884);
+                      border:2px solid black;
+                  }
+                  #new{
+                      background-color: rgb(255, 220, 192);
+                      height:950px;
+                      width:107%;
+                      float:left;
+                  }
+                  #new h1{
+                      padding:20px 0 0 30px;
+                      font-size:4em;
+                      font-weight: bold;
+                      color:rgb(214, 124, 146);
+                      background-color: rgb(14, 13, 13);
+                  }
+                  #new h2{
+                    padding:0px 0 0 30px;
+                    color:rgb(95, 93, 92);
+                    font-size:2em;
+                      font-weight: bold;
+                      
+                  }
+                  .pro{
+                    float:left;
+                    margin-left:4em; ;
+                    border:2px solid black;
+                    opacity: 1;
+                       transition: transform 1s;
+                  }
+                  .pro:hover{
+                    transform: scale(1.1);
+                      opacity: 2;
+                  }
+                  
+                  .pro img{
+                   
+                   
+                      width:20em;
+                      height :320px;
+
+                      
+                  }
+                  
+                  .bold{margin: 0;
+                      font-size:2em;
+                      text-align: center;
+                      color: rgb(247, 115, 148);
+                
+                  }
+                  .info{
+                    
+                    font-size:2em;
+                    
+
+                  }
+                  .pro1{
+                      float:left;
+                      margin-left:7em ;
+                      border:2px solid black;
+                      opacity: 1;
+                       transition: transform 1s;
+                    }
+                    .pro1:hover{
+                        transform: scale(1.1);
+                      opacity: 2;
+                    }
+                      .pro1 img{
+                        width:25em ;
+                      height: 313px;
+                      
+                      }
+                      .pro2{
+                      float:left;
+                      margin-left:7em ;
+                      border:2px solid black;
+                      opacity: 1;
+                       transition: transform 1s;
+                      }
+                      .pro2:hover{
+                        transform: scale(1.1);
+                      opacity: 2;
+                    }
+                      .pro2 img{
+                        width:25em ;
+                      height: 313px;
+                      
+                      }
+                      .des{
+                          margin:0; 
+                          padding-left: 300px;
+                           font-size:3em ;
+                          color: darkorange;
+                      }
+                      .des:hover{
+                         color:darkred;
+                      }
+                      #surprise{
+                          margin:0;
+                      }
+                      .sur{
+                      background-color: rgb(255, 220, 192);
+                      height:900px;
+                      width:107%;
+                      float:left;
+                  }
+                  
+                  .sur h1{
+                      padding:20px 0 0 30px;
+                      font-size:4em;
+                      font-weight: bold;
+                      color:rgb(219, 148, 17);
+                      background-color: rgb(14, 13, 13);
+                  }
+                  .sur h2{
+                    padding:0px 0 0 30px;
+                    color:rgb(16, 214, 181);
+                    font-size:2em;
+                      font-weight: bold;
+                      
+                  }
+                  .p{
+                    float:left;
+                    margin-left:4em; ;
+                    border:2px solid black;
+                    opacity: 1;
+                       transition: transform 1s;
+                  }
+                  .P:hover{
+                    transform: scale(1.1);
+                      opacity: 2;
+
+                  }
+                  .p img{
+                        width:23em;
+                      height :320px;
+                    }
+                    .pa{
+                      float:left;
+                      margin-left:7em ;
+                      border:2px solid black;
+                      opacity: 1;
+                       transition: transform 1s;
+                      }
+                      .Pa:hover{
+                        transform: scale(1.1);
+                      opacity: 2;
+
+                      }
+                      .pa img{
+                        width:27.5em ;
+                      height: 313px;
+                      
+                      }
+                      
+                    .pb{
+                      float:left;
+                      margin-left:7em ;
+                      border:2px solid black;
+                      opacity: 1;
+                       transition: transform 1s;
+                      }
+                      .Pb:hover{
+                        transform: scale(1.1);
+                      opacity: 2;
+                      }
+                      .pb img{
+                        width:25em ;
+                      height: 313px;
+                      
+                      }
+                      .de{
+                      background-color: rgb(255, 220, 192);
+                      height:1000px;
+                      width:107%;
+                      float:left;
+                  }
+                  .de h1{
+                      padding:20px 0 0 30px;
+                      font-size:4em;
+                      font-weight: bold;
+                      color:rgb(80, 183, 231);
+                      background-color: rgb(14, 13, 13);
+                  }
+                  .de h2{
+                    padding:0px 0 0 30px;
+                    color:rgb(219, 93, 20);
+                    font-size:2em;
+                      font-weight: bold;
+                      
+                  }
+                  .a{
+                    float:left;
+                    margin-left:4em; 
+                    border:2px solid black;
+                    opacity: 1;
+                       transition: transform 1s;
+                    
+                  }
+                  .a:hover{
+                    transform: scale(1.1);
+                      opacity: 2;
+                    
+                  }
+                  .a img{
+                   margin-left: 50px;
+                       width:160px;
+                      height :160px;
+                      border-radius:160px ;
+                      border: 2px solid black;
+                    }
+                    .cam{
+                    float:left;
+                    margin-left:4em; 
+                    border:2px solid black;
+                    opacity: 1;
+                       transition: transform 1s;
+                    
+                  }
+                  .cam img{
+                   margin-left: 50px;
+                       width:160px;
+                      height :160px;
+                      border-radius:160px ;
+                      border: 2px solid black;
+
+                    
+                    }
+                    .cam:hover{
+                        
+                      transform: scale(1.1);
+                      opacity: 2;
+                     }
+                    
+                    .LAP{
+                        margin-top:50px ;
+                    float:left;
+                    margin-left:4em; 
+                    border:2px solid black;
+                    opacity: 1;
+                       transition: transform 1s;
+                    
+                  }
+                  .LAP:hover{
+                    transform: scale(1.1);
+                      opacity: 2;
+                  }
+                  .LAP img{
+                   margin-left: 50px;
+                       width:160px;
+                      height :160px;
+                      border-radius:160px ;
+                      border: 2px solid black;
+                    }
+                    .rev{
+                      background-color: rgb(255, 220, 192);
+                      height:500px;
+                      width:107%;
+                      float:left;
+                  }
+                  .rev h1{
+                      padding:20px 0 0 30px;
+                      font-size:4em;
+                      font-weight: bold;
+                      color:rgb(36, 163, 110);
+                      background-color: rgb(14, 13, 13);
+                  }
+                  .rev1{
+                      background-color: burlywood;
+                      border: 2px solid black;
+                      
+                      transition: transform 1s;
+                opacity: 0.5;
+                 font:left;
+                    }
+                    .rev1:hover{
+                        transform: scale(1.1);
+                       opacity: 1;
+                    }
+                    
+        .rev1 img{
+                      float:left;
+                  }
+                  .r1{
+                      float:left;
+                      font-size: 2em;
+
+                  }
+                  .ur1 {
+            padding: 10px;
+            color: rgb(66, 180, 21);
+            background-color: rgb(194, 112, 19);
+            height: 70px;
+            width: 107%;
+            font-size: 300%;
+            text-align: center;
+        }
+        
+        .ur2 {
+            margin: 5px;
+            padding: 10px;
+            color: rgba(255, 81, 0, 0.897);
+            font-weight: bold;
+            text-align: center;
+            border: 2px black solid;
+            border-radius: 5px;
+            background-color: rgb(146, 212, 212);
+        }
+        .foot {
+            background-color: rgb(216, 23, 23);
+            height: 200px;
+            width: 1370px;
+            z-index: 1;
+        }
+        
+        .ft1 {
+            padding: 10px;
+            margin-top: 20px;
+            margin-left: 100px;
+            border: 2px rgb(19, 15, 15) solid;
+            background-color: rgb(196, 243, 158);
+            height: 150px;
+            color: rgb(255, 123, 0);
+            font-size: 0.7;
+            float: left;
+            z-index: 2;
+        }
+        
+        .ft2 {
+            padding: 10px;
+            z-index: 2;
+            margin-top: 20px;
+            margin-left: 700px;
+            border: 2px solid black;
+            background-color: rgb(169, 223, 126);
+            color: rgb(228, 111, 15);
+            font-size: 1em;
+            float: left;
+        }
+        
+        .log {
+            padding: 0 5px 5px 20px;
+            border: 2px rgb(18, 18, 20) solid;
+        }
+        .finish{
+            
+            background-color: lightblue;
+            margin-left: 1350px;
+            padding-left: 50px;
+            color: red;
+            font-weight: bold;
+            border: 5px black inset;
+           
+         }
+      
+        
+        
+                
+
+
+                    
+   
+    </style>    
+</head>
+
+<body>
+   
+<div id="vessel">
+  <div id="tnb">
+      <div id="logo">
+          <img src="image/LOGO2.png" width=100px />
+          
+      </div>
+      <div class ="line">
+        <P>ANYTHING<br/> ANYTIME<br/>ANYWHERE</P>
+       </div>
+       <div id="search">
+           <input type="text" placeholder="search for product,brands and more.." />
+       <div id="st">
+           <img src="image/s.png"/>
+       </div> 
+      </div>
+      <div id="signin">
+        <input type="submit" value="SIGN IN"/>
+       </div>
+        <div id="cart">
+        <img src="image/cart..jpg"/>
+        <P class="c">CHART<br/>++++++</P>
+        </div>
+     </div>
+     
+     <div class="break">
+     </div>
+      <div id="linkbar">
+      <ul>
+            <li class="section" ><a href="#mooto">INTRODUCTION</a></li>
+            <li class="section"><a href="#new">STOCK <br/>LANDING SOON</a></li>
+            <li class="section"><a href="#surprise">GOLDEN<br> DEAL</a></li>
+            <li class="section"><a href="#demand">DEMAND<br/> DEAL</a></li>
+            <li class="section"><a href="#REVIEWS">REVIEWS</a></li>
+            <li class="section"><a href="#r">YOUR<br/> REVIEW</a></li>
+            <li class="section"><a href="#foot">FOOTER</a></li>
+            <li id="covid"><a href="https://www.google.com/intl/en_in/covid19/"target=_blank>COVID19 ADVISORY</a></li>
+     </ul>
+      </div>
+      
+        <div class="clear">
+       </div>
+       <div id="intro">
+        <div id="centrelogo">
+            <img src="image/LOGO2.png"/>
+            <div id="mooto">
+                <P>WE DELIVER <u>ANYTHING</u>,AT <u>ANYTIME</u> AND <u>ANYWHERE</u>  </P>
+                <P id="l"> ONLY FOR YOUR SMILE <br/>
+                    <img src="image/smile.jpg"/></P> 
+            <P id="k">#KUCHH_BHEE#KABHI_BHEE#KAHEE_BHEE</P>   
+           </div>
+        </div>
+        <div id="button">
+            <a href="#surprise">GOLDEN DEAL</a>
+        </div>
+        </div>
+    <hr/>
+    <div id="stock">
+        <div id="new">
+            <h1><U>STOCK LANDING SOON</U> </h1>
+            <h2><u>COMING SOON.....</u></h2>
+            <div class="pro">
+                <img src="image/iPhone.jpg"/>
+                <p class ="bold"><u>APPLE IPHONE SE</u></p> 
+                <p class="info">1)FASTEST CHIP<br/>2)BEST IN CLASS</p>
+            </div>
+            <div class="pro1">
+                <img src="image/nike.jpg"/>
+                <p class ="bold"><u>NIKE ADAPT 2.0</u></p> 
+                <p class="info">1)LATEST TECHNOLOGY<br/>2)HIGH BUILT QUALITY</p>
+            </div>
+            <div class="pro2">
+                <img src="image/DIVISION.JPG"/>
+                <p class ="bold"><u>ALL NEW CLOTHING</u></p> 
+                <p class="info">1)BEST FABRIC<br/>2)AT ATTRACTIVE PRICE</p>
+             
+             </div>
+            
+            
+            <div class="des">
+                <div class="clear"></div>
+             <p ><u><strong>FLASH SALE WILL BE COMING SOON!!!!!!!<BR/>LIMETED STOCK WILL BE LAUNCHED...<BR/>PRICE WILL BE COMING SOON....</u></strong></p>
+            </div>
+        </div>
+            </div>
+            <p></p>
+            <hr/>
+            <div id="surprise">
+                <div class="sur">
+                    <h1><U>GOLDEN DEAL</U> </h1>
+                    <h2><u>AT PRICE NEVER BEFORE ....</u></h2>
+                    <div class="p">
+                        <img src="image/phone.jpg"/>
+                        <p class ="bold"><u>FLAGSHIP PHONE</u></p> 
+                        <p class="info">1)EXCHANGE OFFER<br/>2)DISCOUNT UPTO 40%</p>
+                    </div>
+                    <div class="pa">
+                        <img src="image/ac.jpg"/>
+                        <p class ="bold"><u>DAIKIN AC</u></p> 
+                        <p class="info"><STRIKE>ORIGINAL PRICE:-Rs40000 /-</STRIKE><br/>DISCOUNT OF 40%<br/>NEW PRICE:-Rs34000/-</p>
+                    </div>
+                    <div class="pb">
+                        <img src="image/GYM.JPG"/>
+                        <p class ="bold"><u>JDM GYM MATERIAL</u></p> 
+                        <p class="info"><strike>ORIGINAL PRICE:-100000</strike><br/>DISCOUNT OF 20%<br/>NEW PRICE:-Rs 80000</p>
+                     
+                     </div>
+                    </div>
+            </div>
+            <div class="clear"></div>
+            <div id="demand">
+                <div class="de">
+                    <h1><U>DEMAND DEAL</U> </h1>
+                    <h2><u>HIGHEST BOUGHT RATE ...</u></h2>
+                    <div class="a">
+                        <img src="image/alexa.jpg"/>
+                        <p class ="bold"><u>AAA ALEXA</u></p> 
+                        <p class="info">STAR RATING:4/5</p>
+                    </div>
+                    <div class="cam">
+                        <img src="image/cam.jpg"/>
+                        <p class ="bold"><u>CANON CAMERA</u></p> 
+                        <p class="info">STAR RATING 3.5/5</p>
+                    </div>
+                    <div class="cam">
+                        <img src="image/bag.jpeg"/>
+                        <p class ="bold"><u>BATA BAG</u></p> 
+                        <p class="info">STAR RATING:4/5</p>
+                    </div>
+                    <div class="cam">
+                        <img src="image/bike.jpg"/>
+                        <p class ="bold"><u>HERO BIKE</u></p> 
+                        <p class="info">STAR RATING:4.5/5</p>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="LAP">
+                        <img src="image/HP.jpg"/>
+                        <p class ="bold"><u>HP PAVILION</u></p> 
+                        <p class="info">STAR RATING:3/5</p>
+                    </div> <div class="LAP">
+                        <img src="image/head.jpg"/>
+                        <p class ="bold"><u> HEADPHONE</u></p> 
+                        <p class="info">STAR RATING:4/5</p>
+                    </div> <div class="LAP">
+                        <img src="image/BOTTLE.jpg"/>
+                        <p class ="bold"><u>WATER BOTTLE</u></p> 
+                        <p class="info">STAR RATING:5/5</p>
+                    </div> <div class="LAP">
+                        <img src="image/SHOE.jpg"/>
+                        <p class ="bold"><u>NIKE PG4</u></p> 
+                        <p class="info">STAR RATING:3.5/5</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="clear"></div>
+            <hr/>
+            <div id="REVIEWS">
+                <div class="rev">
+                    <h1><U>YOUR REVIWS</U> </h1>
+                    <div class="rev1">
+                        <img src="image/f1.jpg"/>
+                        <p class="r1">1)EVERY PRODUCT IS BEST IN IT<br/>2)NICE STARTUP<br/>
+                            3)QUICK DELIVERY <br/> 4)REASONABLE PRICE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div id="r">
+
+                <div class="ur1">
+                    YOUR REVIEW
+                </div>
+        
+                <div class="ur2">
+                    <p>FIRST NAME</p>
+                    <input type="text" placeholder="type">
+                    <hr />
+        
+                    <p>LAST NAME</p>
+                    <input type="text" placeholder="type">
+                    <hr />
+                    <p>EMAIL</p>
+                    <input type="email" placeholder="type">
+                    <hr />
+                    <p>RATINGS OUT OF 5</p>
+                    <input type="number" placeholder="type">
+                    <hr />
+                    <p>REVEIWS</p>
+                    <input type="textarea" width=200px height=400px>
+                    <hr />
+                    <input type="submit" value="SUBMIT">
+                </div>
+        
+            </div>
+            <hr/>
+            <div id="foot">
+                <div class="ft1">
+                    <ul>
+                        <li>Terms and Conditions</li>
+                        <li>Privacy Policy</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="ft2">
+                    <ul>
+                        <li>
+                            Copyright Information
+                        </li>
+                    </ul>
+                    <br /> <U>ANYTHING<br/>ANYTIME<br/> ANYWHERE</U>
+                    <img src="image/LOGO2.png"  class="log" width=60px height=60px />
+    
+    
+                </div>
+                <div id="top">
+                    <div class="finish">
+                    <a href="#intro">back to top</a>
+                    </div>
+                </div>
+           
+        
+
+        
+
+            
+
+
+  
+    
+</div>
+</body>
+</html>
